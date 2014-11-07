@@ -29,7 +29,7 @@
         "owner":"iteblog"
     }
 
-```javascript
+```json
   var ihubo = {
     nickName  : "草依山",
     site : "http://jser.me"
