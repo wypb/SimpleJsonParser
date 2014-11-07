@@ -90,7 +90,7 @@ object SimpleJsonParser {
       """{"store":{"bicycle":
         |{"price":19.951,"color":"red1"},
         |"fruit":[{"weight":8,"type":"apple"},{"weight":9,"type":"pear"}]},
-        |"email":"amy@only_for_json_udf_test.net",
+        |"blog":"http://www.iteblog.com",
         |"owner":"amy1"}""".stripMargin)
     val buff = simpleJsonParser.printMap(result.get, 0)
     buff.delete(buff.size - 2, buff.size)
