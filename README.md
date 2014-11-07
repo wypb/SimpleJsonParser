@@ -7,7 +7,7 @@
     {"store":{"bicycle":{"price":19.951,"color":"red1"},"fruit":[{"weight":8,"type":"apple"},{"weight":9,"type":"pear"}]},"email":"amy@only<em>for</em>json<em>udf</em>test.net","owner":"amy1"}
 
 <p>Result</p>
-
+```json
     {
         "store":{
             "bicycle":{
@@ -28,10 +28,4 @@
         "blog":"http://www.iteblog.com",
         "owner":"iteblog"
     }
-
-```json
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
-  }
 ```
